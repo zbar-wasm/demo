@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- <link rel="icon" href="%PUBLIC_URL%/favicon.ico" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Online Demo of zbar.wasm"
+    />
+    <title>ZBar.wasm</title>
+    <style>
+      html,body {
+        margin: 0;
+        padding: 0;
+        background-color: #878787;
+      }
+      .full {
+        display:block;
+        position: absolute;
+      }
+      #canvas {
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+      }
+      #header {
+        width: calc(100vw - 120px);
+        height: 60px;
+        padding: 10px 60px 0 60px;
+        background-color: rgba(10, 10, 10, 0.5);
+        display: flex;
+      }
+      #title {
+        font-size: 30px;
+        color: #fff;
+        margin-left: 20px;
+      }
+      #footer {
+        width: calc(100vw - 120px);
+        /*height: 60px;*/
+        padding: 10px 60px 0 60px;
+        background-color: rgba(10, 10, 10, 0.5);
+        /*display: flex;*/
+        bottom: 0;
+      }
+      .footerItem {
+        margin-bottom: 5px;
+        width: 100%;
+        color: #fff;
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <video id="video" class="full"></video>
+    <canvas id="canvas" class="full"></canvas>
+    <div id="header" class="full">
+      <a target="_blank" href="https://github.com/samsam2310/zbar.wasm">
+        <img width="48px" src="%PUBLIC_URL%/GitHub-Mark-Light-64px.png">
+      </a>
+      <span id="title">ZBar.wasm</span>
+    </div>
+    <div id="footer" class="full">
+      <div class="footerItem">AAA</div>
+      <div class="footerItem">BBB</div>
+    </div>
+  </body>
+</html>
