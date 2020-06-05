@@ -10,10 +10,10 @@ const getImageData = async (src) => {
 };
 
 const main = async () => {
-	const img = await getImageData(__dirname + '/test.png');
-	const res = await scanImageData(img);
-	console.log(res[0].typeName); // ZBAR_QRCODE
-	console.log(res[0].decode()); // Hello World
+  const img = await getImageData(__dirname + '/test.png');
+  const res = await scanImageData(img);
+  console.log(res[0].typeName); // ZBAR_QRCODE
+  console.log(res[0].decode()); // Hello World
 };
 
 main();

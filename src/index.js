@@ -102,11 +102,12 @@ const main = async () => {
       await sleep(SCAN_PROID_MS);
     }
   } catch (err) {
-    const h1 = document.createElement('h1');
-    h1.style = 'position: absolute; top: 20px; left: 20px';
-    h1.innerText = 'Cannot get cammera: ' + err;
-    document.body.appendChild(h1);
-    console.log(err);
+    const div = document.createElement('div');
+    div.className = 'full middle';
+    div.style = 'height: 72px; width: 100%; text-align: center; font-size: 36px';
+    div.innerText = 'Cannot get cammera: ' + err;
+    document.body.appendChild(div);
+    console.error(err);
   }
 };
 
