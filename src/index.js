@@ -3,8 +3,8 @@ import { scanImageData } from 'zbar.wasm';
 const SCAN_PROID_MS = 800;
 
 const handleResize = () => {
-  const width = window.innerWidth;
-  const height = window.innerHeight;
+  const width = document.documentElement.clientWidth;
+  const height = document.documentElement.clientHeight;
   const video = document.getElementById('video');
   video.width = width;
   video.height = height;
@@ -60,7 +60,7 @@ const render = (symbols) => {
     ctx.beginPath();
     for (let j = 0; j < points.length; ++j) {
       const { x, y } = points[j];
-      if (j == 0) {
+      if (j === 0) {
         ctx.moveTo(x, y);
       } else {
         ctx.lineTo(x, y);
