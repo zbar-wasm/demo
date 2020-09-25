@@ -33,6 +33,7 @@ const init = async () => {
     });
   const video = document.getElementById('video');
   video.srcObject = mediaStream;
+  video.setAttribute('playsinline', '');
   video.play();
   await new Promise(r => {
     video.onloadedmetadata = r;
