@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.js": "/demo/static/js/main.4b7d3027.chunk.js",
-    "main.js.map": "/demo/static/js/main.4b7d3027.chunk.js.map",
+    "main.js": "/demo/static/js/main.2f73c9a9.chunk.js",
+    "main.js.map": "/demo/static/js/main.2f73c9a9.chunk.js.map",
     "runtime-main.js": "/demo/static/js/runtime-main.134dfdfb.js",
     "runtime-main.js.map": "/demo/static/js/runtime-main.134dfdfb.js.map",
+    "static/js/2.22758ff3.chunk.js": "/demo/static/js/2.22758ff3.chunk.js",
+    "static/js/2.22758ff3.chunk.js.map": "/demo/static/js/2.22758ff3.chunk.js.map",
     "index.html": "/demo/index.html",
-    "precache-manifest.e8e0d15cc08de825a443686da02da27b.js": "/demo/precache-manifest.e8e0d15cc08de825a443686da02da27b.js",
+    "precache-manifest.0e70cf660058917d69900038b3a03e75.js": "/demo/precache-manifest.0e70cf660058917d69900038b3a03e75.js",
     "service-worker.js": "/demo/service-worker.js",
-    "static/media/zbar.wasm.bin": "/demo/static/media/zbar.wasm.eb11d6b8.bin"
+    "static/media/zbar.wasm.bin": "/demo/static/media/zbar.wasm.5f90df22.bin"
   },
   "entrypoints": [
     "static/js/runtime-main.134dfdfb.js",
-    "static/js/main.4b7d3027.chunk.js"
+    "static/js/2.22758ff3.chunk.js",
+    "static/js/main.2f73c9a9.chunk.js"
   ]
 }
